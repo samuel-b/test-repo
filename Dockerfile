@@ -48,4 +48,4 @@ COPY . .
 EXPOSE 8005
 
 # Run the application.
-CMD python3 -m uvicorn app:app --host=0.0.0.0
+CMD python3 -m uvicorn app:app --host=0.0.0.0 --port=8005
